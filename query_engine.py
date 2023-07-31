@@ -3,7 +3,7 @@ from datetime import date
 import openpyxl
 from final.testref import excel_references
 from final.table_email import send_mail
-from final.connection import database_connection
+from connection import database_connection
 # from creating_book import workbook_creation, save_workbook, write_to_sheet
 
 workbook = openpyxl.load_workbook("book_1.xlsx")
